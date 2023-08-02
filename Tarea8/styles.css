@@ -1,0 +1,85 @@
+.calculator {
+  /* Estilos generales del contenedor de la calculadora */
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 50px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  background-color: #e8e6e6;
+  border: 2px solid #000;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative; /* Necesario para el efecto de sombra */
+}
+
+.calculator:before {
+  /* Elemento pseudo ::before para crear un efecto de sombra en el fondo */
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  z-index: -1;
+  filter: blur(10px);
+  background-color: #67a8ee;
+}
+
+.display {
+  /* Estilos del campo de entrada/display */
+  width: 87%; /* Anchura del campo de entrada */
+  height: 50px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  padding: 15px; /* Padding interno del campo de entrada */
+  background-color: #e0f1e4;
+  border: 1px solid #000;
+  font-family: "Courier New", monospace;
+  text-align: right; /* Alineación del texto a la derecha */
+}
+
+.buttons .row {
+  /* Estilos de las filas de botones */
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons button {
+  /* Estilos generales de los botones */
+  flex: 1;
+  height: 60px;
+  font-size: 18px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.buttons button:hover {
+  transform: scale(1.1); /* Efecto de escala al pasar el ratón por encima */
+  transition: transform 0.2s ease-in-out;
+}
+
+.number {
+  /* Estilos de los botones de números */
+  background-color: #8e8e8e;
+  color: #fff;
+}
+
+.operator {
+  /* Estilos de los botones de operadores */
+  background-color: #67a8ee;
+  color: #fff;
+}
+
+.delete {
+  /* Estilos del botón de borrado */
+  background-color: #4a4949;
+  color: #fff;
+}
+
+.equal {
+  /* Estilos del botón de igual */
+  background-color: #4a4949;
+  color: #fff;
+}

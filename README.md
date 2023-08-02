@@ -34,6 +34,14 @@ La página de gestión de usuarios está diseñada para mostrar una lista de usu
 ### Vista previa:
 ![Página de Gestión de Usuarios](user-management.png)
 
+## Calculadora
+
+### Descripción:
+La calculadora con jQuery es una aplicación web que permite realizar operaciones aritméticas básicas como suma, resta, multiplicación y división. Está construida utilizando tecnologías web como HTML, CSS (utilizando Bootstrap para el diseño) y jQuery para la interactividad. La calculadora tiene un campo de entrada donde se muestra el resultado de las operaciones y botones numéricos y de operadores para ingresar los valores. Además, cuenta con un botón para borrar el contenido del campo de entrada y otro para calcular el resultado de la operación. Es una herramienta simple y útil para realizar cálculos rápidos en el navegador web.
+
+### Vista previa:
+![Página de Gestión de Usuarios](calc.png)
+
 ## Cómo utilizar:
 
 1. Clona el repositorio en tu máquina local.

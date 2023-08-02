@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora con jQuery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Contenedor principal de la calculadora -->
+  <div class="calculator">
+    <!-- Campo de entrada donde se muestra el resultado -->
+    <input type="text" class="display" id="display" disabled>
+
+    <!-- Contenedor de los botones de la calculadora -->
+    <div class="buttons">
+      <!-- Fila 1 de botones -->
+      <div class="row">
+        <button class="col-3 number">7</button>
+        <button class="col-3 number">8</button>
+        <button class="col-3 number">9</button>
+        <button class="col-3 operator">÷</button>
+      </div>
+
+      <!-- Fila 2 de botones -->
+      <div class="row">
+        <button class="col-3 number">4</button>
+        <button class="col-3 number">5</button>
+        <button class="col-3 number">6</button>
+        <button class="col-3 operator">x</button>
+      </div>
+
+      <!-- Fila 3 de botones -->
+      <div class="row">
+        <button class="col-3 number">1</button>
+        <button class="col-3 number">2</button>
+        <button class="col-3 number">3</button>
+        <button class="col-3 operator">-</button>
+      </div>
+
+      <!-- Fila 4 de botones -->
+      <div class="row">
+        <button class="col-3 number">.</button>
+        <button class="col-3 number">0</button>
+        <button class="col-3 number">00</button>
+        <button class="col-3 operator">+</button>
+      </div>
+
+      <!-- Fila 5 de botones -->
+      <div class="row">
+        <!-- Botón para borrar el contenido del campo de entrada -->
+        <button class="col-6 delete">DEL</button>
+        <!-- Botón para calcular el resultado de la operación -->
+        <button class="col-6 equal">=</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Se carga la librería jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Se carga el archivo de JavaScript para la funcionalidad de la calculadora -->
+  <script src="calculator.js"></script>
+</body>
+</html>
