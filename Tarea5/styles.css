@@ -1,0 +1,37 @@
+.form-select-width {
+  width: auto;
+}
+* Estilos para el buscador */
+.input-group.w-100.mw-md-50 {
+  max-width: 250px; /* Cambia el ancho máximo del buscador aquí */
+  margin: 0 auto; /* Centrar el buscador horizontalmente */
+}
+
+/* Estilos para el título del buscador */
+.input-group.w-100.mw-md-50 input[type="search"] {
+  border-radius: 4px; /* Bordes redondeados para el campo de búsqueda */
+  padding: 6px 12px; /* Espacio interno para el campo de búsqueda */
+  border: 1px solid #ccc; /* Borde del campo de búsqueda */
+}
+
+/* Estilos para el icono de búsqueda */
+.input-group.w-100.mw-md-50 .input-group-text {
+  background-color: #fff; /* Fondo del icono de búsqueda */
+  border: none; /* Borde del icono de búsqueda */
+}
+
+/* Estilos para el texto "Buscar" */a
+.custom-input-group .input-group-prepend {
+  font-weight: bold; /* Texto en negrita */
+  margin-right: 10px; /* Espacio entre el texto y el campo de búsqueda */
+}
+
+/* Posicionar a la derecha */
+.custom-input-group .input-group {
+  justify-content: flex-end;
+}
+
+.btn-group1 button {
+  /* Borde gris oscuro */
+  border: 2px solid rgba(128, 128, 128, 0.6);
+}

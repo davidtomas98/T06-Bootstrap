@@ -1,0 +1,105 @@
+/* Estilo para el encabezado de navegación */
+#header-nav {
+  background-color: #e4e4e4; /* Fondo del encabezado en gris claro */
+  height: 40px; /* Altura del encabezado */
+}
+
+/* Estilo para la sección izquierda de la navegación del encabezado */
+#header-nav-left > div > a {
+  text-decoration: none; /* Quita la decoración de subrayado de los enlaces */
+  color: black; /* Color de texto negro para los enlaces */
+  margin-left: 5px; /* Espacio entre los enlaces */
+}
+
+/* Estilo para la sección derecha de la navegación del encabezado */
+#header-nav-right > a {
+  text-decoration: none; /* Quita la decoración de subrayado de los enlaces */
+  color: black; /* Color de texto negro para los enlaces */
+}
+
+/* Cambiar el color del recuadro del botón y el texto cuando el ratón está encima del enlace */
+#header-nav-right > a:hover,
+.nav-right > a:hover,
+#user > a:hover {
+  color: black; /* Cambiamos el color del texto a negro */
+  background-color: white; /* Cambiamos el color del recuadro a blanco */
+}
+
+/* Contenedor principal de la navegación */
+.nav {
+  background-color: #2980b9; /* Fondo del contenedor de navegación en azul */
+  height: 85px; /* Altura del contenedor de navegación */
+  padding-left: 10px; /* Espacio a la izquierda del contenido de la navegación */
+}
+
+/* Estilo para el logotipo en la barra de navegación */
+.navbar-brand {
+  color: white; /* Color de texto blanco para el logotipo */
+  font-size: 24px; /* Tamaño del logotipo */
+}
+
+/* Estilo para el contenido de la navegación */
+.nav-content {
+  background-color: #2980b9; /* Fondo del contenido de la navegación en azul */
+}
+
+/* Agregar un borde en el lado derecho e izquierdo del contenedor de navegación */
+.border-rl {
+  border-left: 1px solid #1a4e7047; /* Borde izquierdo */
+  border-right: 1px solid #1a4e7047; /* Borde derecho */
+}
+
+/* Ajustar la altura del contenedor de navegación */
+.nav-height {
+  padding: 31px 0 30px 0; /* Ajuste de espacio interno */
+}
+
+/* Estilo para el enlace activo en la navegación */
+.active1 {
+  background-color: #f0f0f0; /* Fondo del enlace activo en gris claro (#f0f0f0) */
+  color: black !important; /* Color de texto negro para el enlace activo */
+}
+
+/* Estilo para el enlace activo en la navegación */
+.active:hover {
+  background-color: #f0f0f0; /* Fondo del enlace activo en gris claro (#f0f0f0) */
+  color: black !important; /* Color de texto negro para el enlace activo */
+}
+
+/* Estilo para el submenu desplegable */
+.dropdown-submenu {
+  position: relative; /* Posición relativa para el submenu */
+}
+
+/* Posicionamiento del menú desplegable a la derecha */
+.dropdown-submenu > .dropdown-menu {
+  left: 100%; /* Desplazamiento hacia la derecha */
+  top: -6px; /* Desplazamiento hacia arriba */
+}
+
+/* Mostrar el menú desplegable al pasar el mouse o enfocar */
+.dropdown-submenu:hover > .dropdown-menu,
+.dropdown-submenu > a:focus + .dropdown-menu {
+  display: block; /* Mostrar el menú desplegable */
+}
+
+/* Estilo para los enlaces en la sección derecha de la navegación */
+.nav-right > a {
+  color: white; /* Color de texto blanco para los enlaces */
+  text-decoration: none; /* Quita la decoración de subrayado de los enlaces */
+}
+
+/* Estilo para la sección de usuario en la navegación */
+#user {
+  padding: 28px 20px 28px 20px; /* Ajuste de espacio interno */
+  background-color: #1a4e7047; /* Fondo de la sección de usuario en verde oscuro con transparencia */
+  margin-right: -12px; /* Desplazamiento hacia la izquierda */
+  margin-left: 10px; /* Desplazamiento hacia la derecha */
+  border-radius: 0 0 4px 0; /* Borde redondeado en la parte inferior izquierda */
+}
+
+/* Estilo para los enlaces dentro de la sección de usuario */
+#user > a {
+  color: white; /* Color de texto blanco para los enlaces */
+  text-decoration: none; /* Quita la decoración de subrayado de los enlaces */
+}

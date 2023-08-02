@@ -1,0 +1,32 @@
+/* Estilos para el cuerpo (body) */
+body {
+    background-color: #00171f; /* Color de fondo principal */
+    background-image: linear-gradient(135deg, #ff8c00, #007bff, #000000); /* Gradiente de colores para el fondo */
+    background-attachment: fixed; /* Fija la imagen de fondo para que no se desplace con el contenido */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para las tarjetas (card) */
+  .card {
+    background-color: #f8f9fa; /* Color de fondo para las tarjetas */
+  }
+  
+  /* Estilos para los botones personalizados (btn-teal-custom) */
+  .btn-teal-custom {
+    background-color: #46e6ff; /* Color de fondo del botón personalizado */
+    color: #000000; /* Color del texto del botón personalizado */
+  }
+  
+  /* Estilos al pasar el mouse sobre el botón personalizado */
+  .btn-teal-custom:hover {
+    background-color: #138496; /* Color de fondo al pasar el mouse sobre el botón */
+    border-color: #138496; /* Color del borde al pasar el mouse sobre el botón */
+  }
+  
+  /* Estilos para la caja transparente (transparent-box) */
+  .transparent-box {
+    background-color: rgba(255, 255, 255, 0.8); /* Color de fondo para la caja transparente */
+    padding: 20px; /* Espaciado interno de la caja transparente */
+  }
+  
